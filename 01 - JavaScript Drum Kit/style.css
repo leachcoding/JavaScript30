@@ -1,5 +1,6 @@
 html {
-  font-size: 10px;
+  width: 100%;
+  font-size: 62.5%;
   background: url(http://i.imgur.com/b9r5sEL.jpg) bottom center;
   background-size: cover;
 }
@@ -12,6 +13,7 @@ body,html {
 
 .keys {
   display: flex;
+  flex-flow: row wrap;
   flex: 1;
   min-height: 100vh;
   align-items: center;
@@ -19,8 +21,8 @@ body,html {
 }
 
 .key {
-  border: .4rem solid black;
-  border-radius: .5rem;
+  border: .4rem solid #00b9ff;
+  border-radius: 1.5rem;
   margin: 1rem;
   font-size: 1.5rem;
   padding: 1rem .5rem;
